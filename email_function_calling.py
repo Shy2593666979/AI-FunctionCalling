@@ -5,7 +5,7 @@ from enum import Enum
 from emailSkill import send_email, send_email_action
 import openai
 
-# openai.api_key = 'sess-JZjXeK9HssgkW95Olv8THXMFLBOGaj4P7Ragza5e'
+# openai.api_key = 'sess-JZjXeK9HssgkW95Olv8THXMFLBOGaj4P7Ragza5e' 
 openai.api_key = "sk-NYsoG3VBKDiTuvdtC969F95aFc4f45379aD3854a93602327"
 openai.api_base = "https://key.wenwen-ai.com/v1"
 
