@@ -6,7 +6,7 @@ from email.utils import formataddr
 
 # 发送邮件操作
 my_sender = '2593666979@qq.com'  # 发件人邮箱账号
-my_pass = 'civmiunjysoleafi'  # 发件人邮箱密码
+my_pass = 'xxxxxxxxxxx'  # 发件人邮箱授权码
 my_user = ["2593666979@qq.com"]  # 收件人邮箱账号
 
 
