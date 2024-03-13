@@ -43,17 +43,9 @@ def tool_wrapper_for_qwen(tool):
 
 
 def chat_qwen_72B(prompt):
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": "Bearer sk-ChtJNYJD1sm5FqwA7bE8EfFa3eE847Fa9758E5626d64Cc9a"
-    }
-    data = {
-        "model": "Qwen-72B-Chat",
-        "messages": [{"role": "user", "content": prompt}]
-    }
-
-    response = requests.post("http://70.182.56.14:11000/v1/chat/completions", data=json.dumps(data),
-                             headers=headers).content
+    """
+    此处需要一些Qwen用户的隐私信息，所以隐藏了
+    """
     return str(response, encoding='utf-8')
 
 
