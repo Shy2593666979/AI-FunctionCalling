@@ -1,6 +1,8 @@
 # Function Calling
 
-通过函数调用的方式可使Open AI 有了自动发邮箱的功能：
+version 1.0 🔺
+
+通过函数调用的方式可使Open AI 有了`自动发邮箱`的功能：
 
 example QQ Email：
 
@@ -10,8 +12,6 @@ server.login(my_sender, my_pass)  # 括号中对应的是发件人邮箱账号�
 server.sendmail(my_sender, [receiver_email,], message.as_string())  # 括号中对应的是发件人邮箱账号、收件人邮箱账号、发送邮件
 ```
 QQ Email授权码登录后连接Email Server
-
-version 1.0 🔺
 
 prompt : "给小魏这个人发条消息，告诉小魏晚上记得吃饭，语言要求好听一些"
 
@@ -33,8 +33,8 @@ version 3.0 🔺
 
 `自动发送邮件信息的多轮对话功能` AND `执行shell 命令的function`
 
-如果用户的问题中没有明确收件人或者邮件内容，大模型会进入多轮对话状态进行多次询问，直到发送的信息满足你想法。
+🤔如果用户的问题中没有明确收件人或者邮件内容，大模型会进入多轮对话状态进行多次询问，直到发送的信息满足你想法。
 
-通过用户的问题中来明确需要执行的Shell命令，再通过选择的function在终端执行Shell 命令
+😃通过用户的问题中来明确需要执行的Shell命令，再通过选择的function在终端执行Shell 命令
 
------------------------------function calling 先告一段落
+-----------------------function calling 先告一段落---------------------人👏
