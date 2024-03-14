@@ -29,14 +29,14 @@ content："二鹏消息已经发送：亲爱的二鹏，晚上记得按时吃饭
 
 version 3.0 🔺
 
-在 version 3.0的基础上增加了:（以langchain为基础进行的）
+在 version 3.0的基础上增加了:（在langchain框架上开发）
 
-`自动发送邮件信息的多轮对话功能` AND `执行shell 命令的function`
+`自动发送邮件信息的多轮对话功能`  AND  `执行shell 命令的function`
 
 如果用户的问题中没有明确收件人或者邮件内容，大模型会进入多轮对话状态进行多次询问，直到发送的信息满足你想法。
 
 通过用户的问题中来明确需要执行的Shell命令，再通过选择的function在终端执行Shell 命令
-```
+```python
 question: 创建一个 a.txt 的文件
 
 交给 chat_qwen() 进行询问，返回一个json格式数据
