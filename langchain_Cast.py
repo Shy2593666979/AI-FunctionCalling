@@ -15,15 +15,15 @@ from transformers.generation import GenerationConfig
 
 total_users = ["二鹏", "小田", "小魏", "明广", "二胖", "汉宏", "大头", "传词"]
 
-os.environ['SERPAPI_API_KEY'] = 'cdc3b207606843b4c883849c3a0f833c13057811bea964bef192707d8845f3d8'
-os.environ["OPENWEATHERMAP_API_KEY"] = "843549913c1d5d4e2d95f865ea1ae1e7"
+os.environ['SERPAPI_API_KEY'] = 'SERPAPI_API_KEY'
+os.environ["OPENWEATHERMAP_API_KEY"] = "OPENWEATHERMAP_API_KEY"
 
 """
-tokenizer = AutoTokenizer.from_pretrained("/model/base_model/qwen/Qwen-72B-Chat", trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("/model/base_model/qwen/Qwen-72B-Chat",
+tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained(model_path,
                                          device_map="auto",
                                          trust_remote_code=True).eval()
-model.generation_config = GenerationConfig.from_pretrained("/model/base_model/qwen/Qwen-72B-Chat", trust_remote_code=True) # 可指定不同的生成长度、top_p等相关超参
+model.generation_config = GenerationConfig.from_pretrained(model_path, trust_remote_code=True) # 可指定不同的生成长度、top_p等相关超参
 model.eval()
 """
 
