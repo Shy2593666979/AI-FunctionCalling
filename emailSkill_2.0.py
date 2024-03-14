@@ -17,7 +17,7 @@ def send_email_action(receiver, content):
     smtp_port = 465
     sender_email = "2593666979@qq.com"
     receiver_email = receiver
-    password = "civmiunjysoleafi"
+    password = "xxxxxxxxxxx"
 
     # 构建邮件内容
     message = MIMEMultipart() 
